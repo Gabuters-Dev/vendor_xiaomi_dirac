@@ -182,11 +182,4 @@
     <string name="set_on_boot">Set On Boot</string>
     <string name="set_on_boot_summary">Restore your modifications on each reboot</string>
 
-    <!-- Vibrator -->
-    <string name="vibration_category">Vibration</string>
-    <string name="vibration_override_title">Override System Vibration</string>
-    <string name="vibration_system_title">System Vibration Strength</string>
-    <string name="vibration_notification_title">Notification Vibration Strength</string>
-    <string name="vibration_call_title">Call Vibration Strength</string>
-
 </resources>
