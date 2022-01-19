@@ -1,5 +1,0 @@
-# Allow init to chown/chmod on pseudo files in /sys
-allow init sysfs_type:file { setattr };
-
-# USB Fastcharger
-allow init sysfs_fastcharge:file { write };

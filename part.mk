@@ -9,7 +9,9 @@ PRODUCT_COPY_FILES += \
     $(PART_PATH)/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     $(PART_PATH)/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin
 
-BOARD_SEPOLICY_DIRS += $(PART_PATH)/sepolicy
+# Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(PART_PATH)/sepolicy/private
+BOARD_VENDOR_SEPOLICY_DIRS += $(PART_PATH)/sepolicy/vendor
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
