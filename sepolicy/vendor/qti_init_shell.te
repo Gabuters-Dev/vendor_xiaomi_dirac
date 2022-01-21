@@ -1,3 +1,0 @@
-# XiaomiParts
-allow qti_init_shell kcal_dev:dir search;
-allow qti_init_shell kcal_dev:file rw_file_perms;
