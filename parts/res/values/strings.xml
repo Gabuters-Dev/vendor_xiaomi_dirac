@@ -16,6 +16,10 @@
 -->
 <resources>
 
+    <!-- Head Title -->
+    <string name="xiaomi_parts_title">Xiaomi Parts</string>
+    <string name="xiaomi_parts_summary">Device Specific Customizations</string>
+
     <!-- Ambient settings -->
     <string name="ambient_enable">Use ambient display</string>
 
